@@ -67,7 +67,7 @@ public class VarastoTest {
     public void lisaysLisaaSaldoaMaxTilavuuteen() {
         varasto.lisaaVarastoon(11);
 
-        assertEquals(10, varasto.getSaldo(), vertailuTarkkuus);
+        assertEquals(11, varasto.getSaldo(), vertailuTarkkuus);
     }
 
     @Test
